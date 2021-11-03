@@ -1,0 +1,83 @@
+h1 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: right;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+h2 {
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.main-header {
+  position: absolute;
+  width: 400px;
+  height: 59px;
+  left: 19px;
+  top: 263px;
+}
+
+body {
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background: linear-gradient(180deg, #abd2d0 0%, #427d7a 100%);
+  mix-blend-mode: normal;
+}
+
+.mainPageLeft {
+  position: absolute;
+  width: 576px;
+  height: 700px;
+  left: 576px;
+  top: 0px;
+}
+
+.right {
+  right: 0;
+  background: linear-gradient(180deg, #b6aacf 0%, #554478 100%);
+  mix-blend-mode: normal;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.blob01 {
+  position: absolute;
+
+width: 507.27px;
+height: 641.63px;
+
+}
