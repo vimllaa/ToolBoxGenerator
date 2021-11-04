@@ -13,3 +13,15 @@ right.addEventListener("mouseenter", () => {
 right.addEventListener("mouseleave", () => {
   container.classList.remove("hover-right");
 });
+
+var up = document.getElementById("GFG_UP");
+var down = document.getElementById("GFG_DOWN");
+
+var arr = ["GFG_1", "GeeksForGeeks", "Geeks", "Computer Science Portal"];
+
+up.innerHTML =
+  "Click on the button to check " + "the type of element.<br><br>" + arr;
+
+function GFG_Fun() {
+  down.innerHTML = arr[Math.floor(Math.random() * arr.length)];
+}
