@@ -76,8 +76,14 @@ body {
 
 .blob01 {
   position: absolute;
+  width: 60%;
+  left: -70px;
+  bottom: -40px;
+}
 
-width: 507.27px;
-height: 641.63px;
-
+.blob02 {
+  width: 60%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
